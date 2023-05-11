@@ -1,0 +1,17 @@
+font-family: 'Montserrat', sans-serif;
+
+color:
+text:
+    #0f2656 - navy blue
+    #008aff - sky blue
+    #f15767 - red
+
+
+header shadow:
+    #f2f4f6 - ash
+
+background color:
+    pink - #fdebed
+    green - #ebf9f4
+    yellow - #fff7e8
+    sky blue - #008aff
