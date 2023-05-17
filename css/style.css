@@ -67,29 +67,91 @@ header {
 .container2 {
     width: 52%;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
+    overflow: hidden;
 }
-.container2 h1 {
+.b_h1 {
     /* text-align: center; */
+    margin: 0;
     font-size: 48px;
     font-weight: 700;
     line-height: 65px;
 }
-.container2 h1 span {
+.b_h1 span {
     color: #008aff;
 }
-.container2 p {
+.b_p {
     /* text-align: center; */
-    font-size: 15px;
+    margin: 10px 0 15px 0;
+    font-size: 14px;
     line-height: 25px;
+
 }
 .b_image {
     margin: 0 auto;
-    width: 80%;
-    border: 1px solid blue;
+    width: 75%;
+    /* border: 1px solid blue; */
 }
 .b_image img {
     width: 100%;
 }
 /*Banner section ends*/
+
+/*Feature section starts*/
+.feature {
+    padding-bottom: 70px;
+}
+.f_left {
+    width: 48%;
+    /* border: 1px solid blue; */
+    float: left;
+    text-align: right;
+}
+.f_left h2 {
+    margin: 0;
+    font-size: 43px;
+    font-weight: 700;
+    color: #f15767;
+}
+.f_left p {
+    margin: 14px 0 0;
+    font-size: 14px;
+    line-height: 25px;
+}
+.f_right {
+    width: 48%;
+    /* border: 1px solid blue; */
+    float: right;
+    text-align: left;
+}
+.f_right h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+/*Feature section ends*/
+
+/*Service section starts*/
+.service {}
+
+/*Service section ends*/
+
+/* footer starts */
+footer {
+    /* height: 60px; */
+    background-color: #008aff;
+}
+footer p {
+    padding: 25px 0;
+    font-size: 16px;
+    text-align: center;
+    color: #9dddff;
+}
+footer p a {
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+/* footer ends */

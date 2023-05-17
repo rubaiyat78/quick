@@ -15,3 +15,6 @@ background color:
     green - #ebf9f4
     yellow - #fff7e8
     sky blue - #008aff
+
+    footer text:
+    #9dddff
