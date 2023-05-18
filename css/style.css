@@ -133,17 +133,48 @@ header {
 /*Feature section ends*/
 
 /*Service section starts*/
-.service {}
-
+.service {
+    padding-bottom: 70px;
+}
+.s_service {
+    margin-right: 2.75%;
+    float: left;
+    padding: 40px 25px 50px;
+    /* border: 1px solid blue; */
+    width: 31.5%;
+    box-sizing: border-box;
+}
+.s_service:first-child {
+    background-color: #fdebed;
+}
+.s_service:nth-child(2) {
+    background-color: #ebf9f4;
+}
+.s_service:last-child {
+    margin-right: 0;
+    background-color: #fff7e8;
+}
+.s_img {}
+.s_img img {
+    width: 100%;
+}
+.s_h2 {
+    margin: 16px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+.s_p {
+    margin: 0;
+    line-height: 25px;
+}
 /*Service section ends*/
 
 /* footer starts */
 footer {
-    /* height: 60px; */
+    padding: 20px 0;
     background-color: #008aff;
 }
 footer p {
-    padding: 25px 0;
     font-size: 16px;
     text-align: center;
     color: #9dddff;
